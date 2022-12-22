@@ -1,13 +1,9 @@
-import axios from 'axios';
-import Protobuf from 'pbf';
-import earcut from 'earcut';
 import tilebelt from '@mapbox/tilebelt';
-import { VectorTile } from '@mapbox/vector-tile';
 import { vec3, mat3 } from 'gl-matrix';
 import Stats from 'stats.js';
 
 import { createShader, createProgram, getPrimitiveType } from './utils/webgl-utils';
-import { fetchTile, geometryToVertices } from './utils/map-utils';
+import { geometryToVertices } from './utils/map-utils';
 import MercatorCoordinate from './utils/mercator-coordinate';
 
 ////////////
