@@ -192,7 +192,7 @@ class WebGLMap {
       const validZ = z >= 0 && z <= MAX_TILE_ZOOM;
       return validX && validY && validZ;
     });
-    const inViewLookup = new Set(this.tilesInView.map(t => t.join('/')));
+    // const inViewLookup = new Set(this.tilesInView.map(t => t.join('/')));
 
     // tile fetching options
     const { layers, tileServerURL: url } = this.mapOptions;
