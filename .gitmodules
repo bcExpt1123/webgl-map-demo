@@ -1,3 +1,0 @@
-[submodule "src/libs"]
-	path = src/libs
-	url = git@github.bc:bcExpt1123/webgl-map.git

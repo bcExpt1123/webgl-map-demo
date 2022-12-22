@@ -1,45 +1,70 @@
-# 3D Portfolio
+# Getting Started with Create React App
 
-As a quarantine project, I wanted to learn 3D web development, and decided to revamp my portfolio into an interactive 3D world built using [Three.js](https://github.com/mrdoob/three.js) and [Ammo.js](https://github.com/kripken/ammo.js), a port of the [Bullet physics engine](https://pybullet.org/wordpress/) to JavaScript. I had an absolute blast making this!
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Try it out! [https://www.0xfloyd.com/](https://www.0xfloyd.com/)
+## Available Scripts
 
+In the project directory, you can run:
 
-![alt text](/portfolio_2020.gif)
+### `npm start`
 
-## Motivation
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-While exploring [Google Experiments](https://experiments.withgoogle.com/) I discovered an amazing world of web rendering. There are so many incredible web projects out there, and I wanted to learn this technology. I was inspired by many awesome projects, but specifically examples from the [official examples/documentation](https://threejs.org/), [Lee Stemkoski](https://home.adelphi.edu/~stemkoski/) and [Three.js Fundamentals](https://threejsfundamentals.org/).
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Features
+### `npm test`
 
-- Physics engine (Ammo.js) combined with 3D rendered objects (Three.js) for real-time movement, collision detection and interaction
-- Desktop and Mobile Responsiveness with both keyboard and touch screen controls
-- Raycasting with event listeners for user touch and click interaction
-- FPS tracker to monitor frame rate/ rendering performance
-- Asset compression with webpack plugin to help with quick site load times
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Technology
+### `npm run build`
 
-- Three.js (3D Graphics)
-- Ammo.js (Physics Engine)
-- JavaScript
-- Node.js
-- Express (Node.js framework)
-- Webpack (module/ dependency bundler)
-- HTML/CSS
-- Hosted on Heroku
-- Git (version control) / Github for code hosting
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Usage
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-To use locally, clone the repository, install dependencies, run using webpack's dev server, and navigate to localhost:8080 in your browser:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```javascript
-npm i
-npm run dev
-```
+### `npm run eject`
 
-## License
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-The project is licensed under the MIT License.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
